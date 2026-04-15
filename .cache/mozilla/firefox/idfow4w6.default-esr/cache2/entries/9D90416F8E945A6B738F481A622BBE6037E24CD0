@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr"
+  lang="fr" dir="ltr" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>sources.list [Wiki ubuntu-fr]</title>
+  <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="shortcut icon" href="/_media/favicon.ico" />
+<link rel="apple-touch-icon" href="/lib/tpl/bootstrap3/images/apple-touch-icon.png" />
+    <meta name="generator" content="DokuWiki"/>
+<meta name="robots" content="index,follow"/>
+<meta name="keywords" content="bionic,apt,paquet,depots,administration"/>
+<link type="text/css" rel="stylesheet" href="/lib/tpl/bootstrap3/assets/fonts/united.fonts.css"/>
+<link type="text/css" rel="stylesheet" href="/lib/tpl/bootstrap3/assets/font-awesome/css/font-awesome.min.css"/>
+<link type="text/css" rel="stylesheet" href="/lib/tpl/bootstrap3/assets/bootstrap/united/bootstrap.min.css"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/lib/exe/opensearch.php" title="Wiki ubuntu-fr"/>
+<link rel="start" href="/"/>
+<link rel="contents" href="/sources.list?do=index" title="Plan du site"/>
+<link rel="manifest" href="/lib/exe/manifest.php"/>
+<link rel="alternate" type="application/rss+xml" title="Derniers changements" href="/feed.php"/>
+<link rel="alternate" type="application/rss+xml" title="Catégorie courante" href="/feed.php?mode=list&amp;ns="/>
+<link rel="alternate" type="text/html" title="HTML brut" href="/_export/xhtml/sources.list"/>
+<link rel="alternate" type="text/plain" title="Wiki balise" href="/_export/raw/sources.list"/>
+<link rel="canonical" href="http://doc.ubuntu-fr.org/sources.list"/>
+<link rel="stylesheet" type="text/css" href="/lib/exe/css.php?t=bootstrap3&amp;tseed=ebab1622c8120c4b61b8fec585ea562d"/>
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='';var JSINFO = {"bootstrap3":{"mode":"show","toc":[],"config":{"collapsibleSections":0,"fixedTopNavbar":1,"showSemanticPopup":0,"sidebarOnNavbar":0,"tagsOnTop":1,"tocAffix":1,"tocCollapseOnScroll":1,"tocCollapsed":0,"tocLayout":"default","useAnchorJS":1}},"id":"sources.list","namespace":"","ACT":"show","useHeadingNavigation":0,"useHeadingContent":0};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/jquery.php?tseed=23f888679b4f1dc26eef34902aca964f"></script>
+<script type="text/javascript" charset="utf-8" src="/lib/exe/js.php?t=bootstrap3&amp;tseed=ebab1622c8120c4b61b8fec585ea562d"></script>
+<script type="text/javascript" src="/lib/tpl/bootstrap3/assets/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/lib/tpl/bootstrap3/assets/anchorjs/anchor.min.js"></script>
+<script type="text/javascript" src="/lib/tpl/bootstrap3/assets/typeahead/bootstrap3-typeahead.min.js"></script>
+<!--<![endif]-->
+<style type="text/css">@media screen { body { margin-top: 70px; }  #dw__toc.affix { top: 60px; position: fixed !important; }  #dw__toc .nav .nav .nav { display: none; } }</style>
+    <!--[if lt IE 9]>
+  <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body class="united dokuwiki mode_show tpl_bootstrap3 dw-page-on-panel" data-page-id="sources.list">
+
+  <header id="dokuwiki__header" class="dokuwiki container">
+    <nav id="dw__navbar" class="navbar navbar-fixed-top navbar-default" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <a href="/accueil"  accesskey="h" title="[H]" class="navbar-brand"><span class="uf uf-cof" id="dw__accueil" style="font-size: 35px;" ></span> <span id="dw__title" style="margin-top:-5px">Wiki ubuntu-fr<span id="dw__tagline">La Documentation francophone</span></span></a>
+    </div>
+
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="//ubuntu-fr.org/" ><i class="fa fa-2x fa-fw fa-home"></i><span> Accueil</span></a>        </li>
+        <li>
+          <a href="//forum.ubuntu-fr.org/" ><i class="fa fa-2x fa-fw fa-comments"></i><span> Forum</span></a>        </li>
+        <li>
+          <a href="//planet.ubuntu-fr.org/" ><i class="fa fa-2x fa-fw fa-globe"></i><span> Planet</span></a>        </li>
+      </ul>
+
+            
+      
+      <div class="navbar-right" id="dw__navbar_items">
+
+        <form action="//forum.ubuntu-fr.org/search_ubuntufr.php" accept-charset="utf-8" class="navbar-form navbar-left search" id="dw__search" method="get" role="search"><div class="no"><input id="qsearch" autocomplete="off" type="search" placeholder="Rechercher" accesskey="f" name="q" class="form-control" title="[F]" /><button type="submit" title="Rechercher"><i class="fa fa-fw fa-search"></i></button><input type="hidden" name="do" value="search" /><input type="hidden" name="tsearch" value="wiki" /></div></form>
+        
+        <ul class="nav navbar-nav">
+
+          
+          
+                    <li>
+            <span class="dw__actions dw-action-icon">
+              <a href="/sources.list?do=login&amp;sectok="  class="action btn btn-default navbar-btn login" rel="nofollow" title="S&#039;identifier"><span class="">S'identifier</span></a>            </span>
+          </li>
+          
+        </ul>
+
+        
+        
+
+      </div>
+
+    </div>
+  </div>
+</nav>
+  </header>
+
+  <div id="dokuwiki__top" class="dokuwiki container">
+
+    <div id="dokuwiki__pageheader">
+
+      
+      
+      <p class="pageId text-right small">
+        <span class="label label-primary">sources.list</span>      </p>
+
+      <div id="dw__msgarea" class="small">
+              </div>
+
+    </div>
+
+    <main class="main row" role="main">
+
+      
+      <article id="dokuwiki__content" class="container" itemscope itemtype="http://schema.org/Article" itemref="dw__license">
+
+        
+<nav id="dw__pagetools" class="hidden-print">
+  <div class="tools panel panel-default pull-right ">
+    <ul class="nav nav-stacked nav-pills">
+      <li><a href="/sources.list?do=edit"  class="action text-muted source" accesskey="v" rel="nofollow" title="Afficher le texte source [V]"><i class="fa fa-fw fa-pencil-square-o"></i><span class="sr-only"> Modifier cette page</span></a></li><li><a href="/sources.list?do=revisions"  class="action text-muted revs" accesskey="o" rel="nofollow" title="Anciennes révisions [O]"><i class="fa fa-fw fa-clock-o"></i><span class="sr-only"> </span></a></li><li><a href="/sources.list?do=backlink"  class="action text-muted backlink" rel="nofollow" title="Liens de retour"><i class="fa fa-fw fa-link"></i><span class="sr-only"> Liens de retour</span></a></li>    </ul>
+  </div>
+</nav>
+
+        <div class="panel panel-default" itemprop="articleBody">
+          <div class="page panel-body">
+
+            <div class="dw-content-page "><div class="dw-toc hidden-print"><script>JSINFO.bootstrap3.toc = [{"link":"#pourquoi_n_inclure_que_des_references_a_des_depots_de_confiance","title":"Pourquoi n'inclure que des r\u00e9f\u00e9rences \u00e0 des d\u00e9p\u00f4ts de confiance ?","level":1},{"link":"#comment_selectionner_un_depot_de_confiance","title":"Comment s\u00e9lectionner un d\u00e9p\u00f4t de confiance ?","level":1},{"link":"#comprendre_la_structure_du_fichier_sourceslist","title":"Comprendre la structure du fichier \u00ab sources.list \u00bb","level":1},{"link":"#voir_aussi","title":"Voir aussi :","level":1}];</script>
+<!-- TOC START -->
+<nav id="dw__toc" role="navigation" class="toc-panel panel panel-default small">
+<h6 data-toggle="collapse" data-target="#dw__toc .toc-body" title="Table des matières" class="panel-heading toc-title"><i class="fa fa-fw fa-th-list"></i> <span>Table des matières</span> <i class="caret"></i></h6>
+<div class="panel-body  toc-body collapse in">
+
+<ul class="nav toc">
+<li class="level1"><a href="#pourquoi_n_inclure_que_des_references_a_des_depots_de_confiance">Pourquoi n&#039;inclure que des références à des dépôts de confiance ?</a></li>
+<li class="level1"><a href="#comment_selectionner_un_depot_de_confiance">Comment sélectionner un dépôt de confiance ?</a></li>
+<li class="level1"><a href="#comprendre_la_structure_du_fichier_sourceslist">Comprendre la structure du fichier « sources.list »</a></li>
+<li class="level1"><a href="#voir_aussi">Voir aussi :</a></li>
+</ul>
+
+</div>
+</nav>
+<!-- TOC END -->
+</div><!-- CONTENT --><div class="dw-content"><div class="tags"><span>
+	<a href="/bionic" class="wikilink1" title="bionic" rel="tag">Bionic</a>,
+	<a href="/apt" class="wikilink1" title="apt" rel="tag">apt</a>,
+	<a href="/paquet" class="wikilink1" title="paquet" rel="tag">paquet</a>,
+	<a href="/depots" class="wikilink1" title="depots" rel="tag">dépôts</a>,
+	<a href="/administration" class="wikilink1" title="administration" rel="tag">administration</a>
+</span></div>
+
+<h1 class="sectionedit1 page-header" id="le_fichier_sourceslist">Le fichier « sources.list »</h1>
+<div class="level1">
+
+<p>
+<a href="/_detail/systeme/sources.list_trusty.png?id=sources.list" class="media" title="systeme:sources.list_trusty.png"><img src="/_media/systeme/sources.list_trusty.png?w=300&amp;tok=039f59" class="mediaright img-responsive" title="Un exemple de fichier &quot;sources.list&quot; original dans Ubuntu 14.04 LTS" alt="Un exemple de fichier &quot;sources.list&quot; original dans Ubuntu 14.04 LTS" width="300" /></a>
+</p>
+
+<p>
+Le fichier <strong><code>sources.list</code></strong> est un document au format texte brut contenant une liste successive de lignes APT, elles-mêmes donnant de l&#039;information à propos de <a href="/depots" class="wikilink1" title="depots">dépôts</a> de <a href="/paquet" class="wikilink1" title="paquet">paquets</a> pour votre système d&#039;exploitation Ubuntu.
+</p>
+
+<p>
+Le fichier <code>sources.list</code> est une partie intégrante du système de gestion des paquets d&#039;Ubuntu et est un élément-clé de la sécurité de votre système d&#039;exploitation Ubuntu. Ce fichier définit quels sont les serveurs de téléchargements auxquels vous avez confiance et depuis lesquels vous désirez acquérir des logiciels. Par défaut, une sélection vous est proposée par l&#039;équipe d&#039;Ubuntu <em>(les dépôts de logiciels officiels maintenus par l&#039;équipe d&#039;Ubuntu)</em>; le choix d&#039;ajouter ou retirer des lignes APT vous revient et se base sur votre jugement personnel.
+</p>
+
+</div>
+
+<h2 class="sectionedit2 page-header" id="pourquoi_n_inclure_que_des_references_a_des_depots_de_confiance">Pourquoi n&#039;inclure que des références à des dépôts de confiance ?</h2>
+<div class="level2">
+
+<p>
+Le système de gestion de paquets repose sur la relation avec les dépôts de paquets auxquels il a accès.
+</p>
+
+<p>
+Voici ce qui se produit lorsque vous désirez installer un nouveau paquet de logiciel ou lorsque vous souhaitez mettre à jour votre système Ubuntu en installant les derniers correctifs de sécurité :
+</p>
+<ol class=" fix-media-list-overlap">
+<li class="level1"><div class="li"> Votre <a href="/gestionnaire_de_paquets" class="wikilink1" title="gestionnaire_de_paquets">gestionnaire de paquets</a> récupère les informations d&#039;adresses de dépôts <em>(les lignes APT)</em> contenues dans le fichier <code>sources.list</code>;</div>
+</li>
+<li class="level1"><div class="li"> Pour chacun des dépôts  les paquets d&#039;installation depuis le ou les dépôts les proposant, puis effectue l&#039;installation;</div>
+</li>
+<li class="level1"><div class="li"> Dans le cas d&#039;une mise à jour, il compare la version des paquets actuellement installés dans votre ordinateur et la version des paquets offerts par les dépôts renseignés dans votre fichier <code>sources.list</code>. Si un paquet est disponible en version plus récente dans un de ces dépôts, alors votre gestionnaire de paquets télécharge le nouveau paquet et l&#039;installe.</div>
+</li>
+</ol>
+
+<p>
+Le système de gestion de paquets consulte dès le départ la liste des dépôts auxquels il a accès, on comprend la nécessité de n&#039;inclure que des références à des dépôts de confiance dans le fichier <code>sources.list</code>. Si vous indiquez une référence à un dépôt non-sécuritaire, vous risquez de recevoir des mises à jour non désirées ou indésirables, voire accéder à des paquets corrompus ou vous installant des logiciels malveillants (espiogiciels, et autres <em>malwares</em> potentiels).
+</p>
+
+</div>
+
+<h2 class="sectionedit3 page-header" id="comment_selectionner_un_depot_de_confiance">Comment sélectionner un dépôt de confiance ?</h2>
+<div class="level2">
+
+<p>
+Pour la sécurité de votre système d&#039;exploitation, vous ne devriez pas ajouter de référence à des dépôts auxquels vous n&#039;avez pas confiance dans votre fichier <code>sources.list</code>. Ceci vise surtout des adresses trouvées aux quatre vents sur Internet. Vous devez utiliser votre jugement pour décider si vous avez confiance en un dépôt particulier : savez-vous qui le maintient ? Est-ce un dépôt généralement reconnu comme sûr par les autres utilisateurs d&#039;Ubuntu ?
+</p>
+<ul class=" fix-media-list-overlap">
+<li class="level1"><div class="li"> <a href="/depots_jammy" class="wikilink1" title="depots_jammy">Pour Ubuntu 22.04 LTS (The Jammy Jellyfish)</a>,</div>
+</li>
+<li class="level1"><div class="li"> <a href="/depots_focal" class="wikilink1" title="depots_focal">Pour Ubuntu 20.04 LTS (The Focal Fossa)</a>.</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit4 page-header" id="comprendre_la_structure_du_fichier_sourceslist">Comprendre la structure du fichier « sources.list »</h2>
+<div class="level2">
+
+<p>
+Le fichier <code>sources.list</code> se trouve dans le dossier <strong>/etc/apt/</strong> et contient :
+</p>
+<ul class=" fix-media-list-overlap">
+<li class="level1 node"><div class="li"> <strong>Des lignes APT concernant des dépôts:</strong> <br/>
+Ce sont les principales lignes intéressantes. Elles donnent toutes les informations nécessaires au gestionnaire de paquets pour consulter le contenu d&#039;un certain dépôt. Ces lignes commencent par la mention <code>deb</code> ou <code>deb-src</code>.<br/>
+Examinons la structure d&#039;une ligne APT réelle : <pre class="file">deb      http://fr.archive.ubuntu.com/ubuntu/     bionic     main restricted universe multiverse</pre>
+</div>
+<ul class=" fix-media-list-overlap">
+<li class="level2 node"><div class="li"> Le premier bloc désigne le type de paquets contenus dans ce dépôt. Deux mentions possibles : </div>
+<ol class=" fix-media-list-overlap">
+<li class="level3"><div class="li"> <code>deb</code> qui désigne des paquets d&#039;installation ;</div>
+</li>
+<li class="level3"><div class="li"> <code>deb-src</code> qui désigne des paquets sources ; ce type de paquet est utile aux développeurs, il contient les codes sources des paquets d&#039;installation.</div>
+</li>
+</ol>
+</li>
+<li class="level2"><div class="li"> Le second bloc désigne l&#039;<abbr title="Uniform Resource Locator">URL</abbr> vers le serveur de paquets.</div>
+</li>
+<li class="level2"><div class="li"> Le troisième bloc identifie votre version d&#039;Ubuntu. Vous ne devriez activer l&#039;accès qu&#039;à des dépôts pour Ubuntu et pour votre version courante d&#039;Ubuntu. Sinon, vous risquez de causer des instabilités sur votre système Ubuntu et le corrompre. La version d&#039;Ubuntu est identifiée par <a href="/versions#versions_d_ubuntu_activement_soutenues" class="wikilink1" title="versions">son nom de code de développement</a>.</div>
+</li>
+<li class="level2"><div class="li"> La dernier bloc identifie les sections du dépôt auxquelles vous souhaitez accéder. Les paquets sont divisés en section selon qu&#039;ils sont maintenus par l&#039;équipe d&#039;Ubuntu ou par la communauté des utilisateurs d&#039;Ubuntu, ainsi que selon leur licence. Quatre sections sont classiquement définies<sup><a href="#fn__1" id="fnt__1" class="fn_top">1)</a></sup> :</div>
+</li>
+</ul>
+</li>
+</ul>
+<div class="table-responsive"><table class="inline table table-striped table-condensed">
+	<thead>
+	<tr class="row0">
+		<th class="col0"> </th><th class="col1 centeralign">  Maintenus par l&#039;équipe d&#039;Ubuntu  </th><th class="col2 centeralign">  Maintenus par les utilisateurs d&#039;Ubuntu  </th>
+	</tr>
+	</thead>
+	<tr class="row1">
+		<th class="col0 leftalign">Logiciels libres  </th><td class="col1 centeralign">  <code>main</code>  </td><td class="col2 centeralign">  <code>universe</code>   </td>
+	</tr>
+	<tr class="row2">
+		<th class="col0 leftalign">Logiciels non-libres ou possiblement non-libres  </th><td class="col1 centeralign">  <code>restricted</code>  </td><td class="col2 centeralign">  <code>multiverse</code>  </td>
+	</tr>
+</table></div>
+<ul class=" fix-media-list-overlap">
+<li class="level1"><div class="li"> <strong>Des lignes de commentaires :</strong> <br/>
+Les lignes de commentaires sont des lignes débutant par un dièse (<code>#</code>). Ces lignes servent à donner des indications quant à la nature d&#039;un dépôt ajouté ou à inclure des instructions à exécuter plus tard par un administrateur pour activer l&#039;accès à un dépôt. Ces lignes ne sont pas prises en compte par votre gestionnaire de paquets. Vous pouvez aussi commenter une ligne APT pour empêcher temporairement que le gestionnaire de paquets interroge un certain dépôt.</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit6 page-header" id="voir_aussi">Voir aussi :</h2>
+<div class="level2">
+<ul class=" fix-media-list-overlap">
+<li class="level1"><div class="li"> <a href="/depots" class="wikilink1" title="depots">Les dépôts de logiciels</a>,</div>
+</li>
+<li class="level1"><div class="li"> <a href="/paquet" class="wikilink1" title="paquet">Les paquets Debian/Ubuntu</a>,</div>
+</li>
+<li class="level1"><div class="li"> <a href="https://www.it-connect.fr/les-fichiers-sources-list/" class="urlextern" title="https://www.it-connect.fr/les-fichiers-sources-list/" rel="nofollow">Explications concernant le fichier sources.list</a> sur IT-Connect.</div>
+</li>
+<li class="level1"><div class="li"> <a href="https://www.dsfc.net/logiciel-libre/linux/ubuntu-linux-logiciel-libre/ubuntu-sources-list-generator/" class="urlextern" title="https://www.dsfc.net/logiciel-libre/linux/ubuntu-linux-logiciel-libre/ubuntu-sources-list-generator/" rel="nofollow">Mode d&#039;emploi du service Ubuntu Sources List Generator</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="https://forum.ubuntu-fr.org/viewtopic.php?id=2059054" class="urlextern" title="https://forum.ubuntu-fr.org/viewtopic.php?id=2059054" rel="nofollow">Régénérer le sources.list</a>, préférer le script.</div>
+</li>
+</ul>
+<hr />
+
+<p>
+<em>Contributeurs : <a href="/utilisateurs/nirado" class="wikilink1" title="utilisateurs:nirado">NiRaDo</a>, <a href="/utilisateurs/enchained" class="wikilink1" title="utilisateurs:enchained">_Enchained</a>, <a href="/utilisateurs/jewome_62" class="wikilink1" title="utilisateurs:jewome_62">jewome_62</a>, <a href="/utilisateurs/dysmann" class="wikilink2" title="utilisateurs:dysmann" rel="nofollow">dysmann</a>.</em>
+</p>
+
+</div>
+<hr/><div class="footnotes">
+<div class="fn"><sup><a href="#fnt__1" id="fn__1" class="fn_bot">1)</a></sup> 
+<div class="content">Certains projets peuvent avoir d&#039;autres conventions pour définir les diverses sections de leurs dépôts (ex: <code>free</code> et <code>non-free</code>). Le présent tableau explique uniquement les sections telles que définies et utilisées communément par Ubuntu.</div></div>
+</div>
+
+</div><!-- /CONTENT --></div>
+          </div>
+        </div>
+
+        <div class="small text-right">
+
+                    <span class="docInfo">
+            <ul class="list-inline"><li><i class="fa fa-fw fa-file-text-o text-muted"></i> <span title="sources.list.txt">sources.list.txt</span></li><li><i class="fa fa-fw fa-calendar text-muted"></i> Dernière modification: <span title="Le 31/12/2024, 17:35">Le 31/12/2024, 17:35</span></li><li class="text-muted">par krodelabestiole</li></ul>          </span>
+          
+          
+        </div>
+
+      </article>
+
+      
+    </main>
+
+    <footer id="dw__footer" class="navbar navbar-default">
+  <div class="container">
+
+    <div class="small navbar-text">
+
+            <div class="footer-dw-title row">
+        <div class="media col-sm-4">
+          <!--<div class="media-left">
+            <img src="/_media/logo.png" alt="Wiki ubuntu-fr" class="media-object" style="width:32px" />
+          </div> -->
+          <div class="media-body">
+            <h4 class="media-heading">Documentation ubuntu-fr</h4>
+            <p>
+              Les pages de cette documentation sont rédigées par les utilisateurs
+              pour les utilisateurs. Apportez-nous votre aide pour améliorer
+              le contenu de cette documentation.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <h4>Liens utiles</h4>
+          <ul class="list-group list-unstyled">
+            <li>
+              <a href="/debutant" ><i class="fa fa-fw fa-child" style="font-size: 1.3em;"></i> Débuter sur Ubuntu</a>            </li>
+            <li>
+              <a href="/wiki/participer_wiki" ><i class="fa fa-fw fa-edit" style="font-size: 1.3em;"></i> Participer à la documentation</a>            </li>
+            <li>
+              <a href="/documentation_hors_ligne" ><i class="fa fa-fw fa-book" style="font-size: 1.3em;"></i> Documentation hors ligne</a>            </li>
+            <li>
+              <a href="//www.ubuntu-fr.org/telechargement" ><i class="fa fa-fw fa-arrow-circle-down" style="font-size: 1.3em;"></i> Télécharger Ubuntu</a>            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h4>Obtenir de l'aide</h4>
+          <ul class="list-group list-unstyled">
+            <li>
+              <a href="/tutoriel/comment_obtenir_une_reponse_satisfaisante" ><i class="fa fa-fw fa-info-circle" style="font-size: 1.3em;"></i> Chercher de l'aide</a>            </li>
+            <li>
+              <a href="//doc.ubuntu-fr.org/" ><i class="fa fa-fw fa-book" style="font-size: 1.3em;"></i> Consulter la documentation</a>            </li>
+            <li>
+              <a href="//forum.ubuntu-fr.org/" ><i class="fa fa-fw fa-comments" style="font-size: 1.3em;"></i> Consulter le Forum</a>            </li>
+            <li>
+              <a href="//guide.ubuntu-fr.org/" ><i class="fa fa-fw fa-question-circle" style="font-size: 1.3em;"></i> Lisez le guide</a>            </li>
+          </ul>
+        </div>
+        <p>&nbsp;</p>
+      </div>
+      
+      
+      <div class="footer-license row">
+
+        <div class="col-sm-6">
+                    <p>
+            <a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" title="CC Paternité-Partage des Conditions Initiales à l'Identique 3.0 Unported" target="" itemscope itemtype="http://schema.org/CreativeWork" itemprop="license" rel="license" class="license"><img src="/lib/tpl/bootstrap3/images/license/cc.png" width="24" height="24" alt="cc" /> <img src="/lib/tpl/bootstrap3/images/license/by.png" width="24" height="24" alt="by" /> <img src="/lib/tpl/bootstrap3/images/license/sa.png" width="24" height="24" alt="sa" /> </a>          </p>
+          <p class="small">
+            Sauf mention contraire, le contenu de ce wiki est placé sous les termes de la licence suivante :<br/><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.fr" title="CC Paternité-Partage des Conditions Initiales à l'Identique 3.0 Unported" target="" itemscope itemtype="http://schema.org/CreativeWork" itemprop="license" rel="license" class="license">CC Paternité-Partage des Conditions Initiales à l'Identique 3.0 Unported</a>          </p>
+                  </div>
+
+        <div class="col-sm-6">
+                    <ul id="dw__badges" class="list-inline text-right hidden-print">
+
+  <li>
+    <a href="https://www.dokuwiki.org/template:bootstrap3" title="Bootstrap template for DokuWiki" target="">
+      <img src="/lib/tpl/bootstrap3/images/bootstrap.png" width="20" alt="Bootstrap template for DokuWiki" />
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.php.net" title="Powered by PHP" target="">
+      <img src="/lib/tpl/bootstrap3/images/php.png" width="20" alt="Powered by PHP" />
+    </a>
+  </li>
+
+  <li>
+    <a href="http://validator.w3.org/check/referer" title="Valid HTML5" target="">
+      <img src="/lib/tpl/bootstrap3/images/html5.png" width="20" alt="Valid HTML5" />
+    </a>
+  </li>
+
+  <li>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS" target="">
+      <img src="/lib/tpl/bootstrap3/images/css3.png" width="20" alt="Valid CSS" />
+    </a>
+  </li>
+
+  <li>
+    <a href="https://www.dokuwiki.org/" title="Driven by DokuWiki" target="">
+      <img src="/lib/tpl/bootstrap3/images/logo.png" width="20" alt="Driven by DokuWiki" />
+    </a>
+  </li>
+
+</ul>
+                  </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+<img src="/lib/exe/indexer.php?id=sources.list&amp;1770637709" width="2" height="1" alt="" />
+    <a href="#dokuwiki__top" class="back-to-top hidden-print btn btn-default btn-sm" title="Aller au contenu" accesskey="t"><i class="fa fa-chevron-up"></i></a>
+
+    <div id="screen__mode">      <span class="visible-xs-block"></span>
+      <span class="visible-sm-block"></span>
+      <span class="visible-md-block"></span>
+      <span class="visible-lg-block"></span>
+    </div>
+
+  </div>
+
+    <!-- Piwik -->
+		<script type="text/javascript">
+		  var _paq = _paq || [];
+		  _paq.push(["setDomains", ["*.doc.ubuntu-fr.org","*.doc.edubuntu-fr.org","*.doc.lubuntu-fr.org","*.doc.xubuntu-fr.org","*.doc.edubuntu-fr.org","*.doc.lubuntu-fr.org","*.doc.ubuntu-fr.org","*.doc.xubuntu-fr.org"]]);
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="//piwik.ubuntu-fr.org/";
+		    _paq.push(['setTrackerUrl', u+'piwik.php']);
+		    _paq.push(['setSiteId', 3]);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<noscript><p><img src="//piwik.ubuntu-fr.org/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+		<!-- End Piwik Code -->
+
+</body>
+</html>
+��TC           i�ɶI'M�       R    O^partitionKey=%28https%2Cubuntu-fr.org%29,:https://doc.ubuntu-fr.org/sources.list strongly-framed 1 security-info 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 request-method GET request-Cookie f6E6EqPG/4w2rk6n4Oe7njwlgfE= response-head HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Mon, 09 Feb 2026 11:49:10 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 26848
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-UA-Compatible: IE=edge,chrome=1
+Age: 41
+X-Cache: HIT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+ original-response-headers Server: nginx/1.18.0
+Date: Mon, 09 Feb 2026 11:49:10 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 26848
+Connection: keep-alive
+Vary: Cookie
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+X-UA-Compatible: IE=edge,chrome=1
+Age: 41
+X-Cache: HIT
+Cache-Control: no-cache, must-revalidate, max-age=0
+Pragma: no-cache
+Accept-Ranges: bytes
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+ ctid 1 uncompressed-len 0   h�

@@ -1,0 +1,37 @@
+{
+    "hostname": "srv-prod-01",
+    "date": "2026-04-15 16:39:57",
+    "ports": {
+        "22": "open",
+        "80": "closed",
+        "443": "closed",
+        "3306": "closed"
+    },
+    "running_services": [
+        "accounts-daemon.service",
+        "avahi-daemon.service",
+        "colord.service",
+        "cron.service",
+        "cups-browsed.service",
+        "cups.service",
+        "dbus.service",
+        "gdm.service",
+        "geoclue.service",
+        "low-memory-monitor.service",
+        "ModemManager.service",
+        "NetworkManager.service",
+        "polkit.service",
+        "power-profiles-daemon.service",
+        "rtkit-daemon.service",
+        "ssh.service",
+        "switcheroo-control.service",
+        "systemd-journald.service",
+        "systemd-logind.service",
+        "systemd-timesyncd.service",
+        "systemd-udevd.service",
+        "udisks2.service",
+        "upower.service",
+        "user@1000.service",
+        "wpa_supplicant.service"
+    ]
+}
